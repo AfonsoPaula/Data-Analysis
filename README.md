@@ -58,3 +58,5 @@
 <img src="https://github.com/AfonsoPaula/Data-Analysis/assets/67978137/dd98c1e8-96da-4cc9-a448-e95c35890a2f">
 
 <hr>
+
+_All this content in this repository was provided by FreeCodeCamp._
