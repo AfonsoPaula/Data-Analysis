@@ -4,7 +4,7 @@ import streamlit as st
 st.write("""
 # Simple Stock Price App
 
-Shown are the stock closing price and volume of Google!
+Shown are the stock **closing price** and **volume** of Google!
 """)
 
 # https://towardsdatascience.com/how-to-get-stock-data-using-python-c0de1df17e75
@@ -19,5 +19,12 @@ tickerDf = tickerData.history(period='1d', start='2010-1-31', end='2024-1-31')
 # Low:    the lowest price the stock achieved that day/month/year
 # Volume: How many shares were traded that day/month/year
 
+st.write("""
+## Closing Price
+""")
 st.line_chart(tickerDf.Close)
+
+st.write("""
+## Volume Price
+""")
 st.line_chart(tickerDf.Volume)
